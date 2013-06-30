@@ -1,0 +1,10 @@
+<h1>JIA API Example</h1>
+
+<% if @link %>
+  <h2>JIA Link retrieved!</h2>
+  <a href="<%= @link %>"><%= @link %></a>
+<% end %>
+<br>
+<% if @error %>
+  <h2>Error retrieving a link: <%= @error %></h2>
+<% end %>

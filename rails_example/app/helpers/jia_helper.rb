@@ -1,0 +1,2 @@
+module JiaHelper
+end
