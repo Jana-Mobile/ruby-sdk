@@ -7,11 +7,11 @@ class JiaController < ApplicationController
     @link = nil
     @error = nil
 
-    customerId = 'gta2i'
+    clientId = 'gta2i'
     secretKey = '293af117b8f14232ad86099f730629bc'
-    offerId = 'irl_mim6lf'
+    offerId = 'irl_hxxpl4'
 
-    jana = Jana.new(customerId, secretKey, 'http://localhost:8082/api/')
+    jana = Jana.new(clientId, secretKey)
     response = jana.getJIALink offerId
     
     if response['success'] 
